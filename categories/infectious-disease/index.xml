@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INFECTIOUS DISEASE  on Aarogya</title>
+    <link>/categories/infectious-disease/</link>
+    <description>Recent content in INFECTIOUS DISEASE  on Aarogya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/infectious-disease/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HEPATITIS B PROFILE</title>
+      <link>/profiles/hepatitis-b-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/profiles/hepatitis-b-profile/</guid>
+      <description>&lt;p&gt;HEPATITIS B PROFILE consist of 44 test and consist of fundamental test for screaning of the health staus like LIVER, COMPLETE HEMOGRAM, DIABETES, HEPATITIS PANEL, SUBSET, INFECTIOUS DISEASES&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HEPATITIS PANEL</title>
+      <link>/profiles/hepatitis-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/profiles/hepatitis-panel/</guid>
+      <description>&lt;p&gt;HEPATITIS PANEL consist of 50 test and consist of fundamental test for screaning of the health staus like LIVER, COMPLETE HEMOGRAM, DIABETES, HEPATITIS PANEL, SUBSET, INFECTIOUS DISEASES&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INFECTIOUS DISEASES on Aarogya</title>
+    <link>/categories/infectious-diseases/</link>
+    <description>Recent content in INFECTIOUS DISEASES on Aarogya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/infectious-diseases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COVID ANTIBODY - GT</title>
+      <link>/profiles/covid-antibody-gt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/profiles/covid-antibody-gt/</guid>
+      <description>&lt;p&gt;COVID ANTIBODY - GT consist of 2 test and consist of fundamental test for screaning of the health staus like Infectious Diseases, INFECTIOUS DISEASES&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
