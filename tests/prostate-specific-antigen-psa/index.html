@@ -123,7 +123,8 @@
 				</a>
 			</li>
 			
-<li class="nav-item"><a class="nav-link toggle-search"><i class="fas fa-search"></i></a></li>
+
+<a class="nav-link toggle-search"><i class="fas fa-search"></i></a>
 <aside role="search">
     <div class="close toggle-search">
     <svg height="512" width="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M443.6 387.1L312.4 255.4l131.5-130c5.4-5.4 5.4-14.2 0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L256 197.8 124.9 68.3c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L68 105.9c-5.4 5.4-5.4 14.2 0 19.6l131.5 130L68.4 387.1c-2.6 2.6-4.1 6.1-4.1 9.8 0 3.7 1.4 7.2 4.1 9.8l37.4 37.6c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1L256 313.1l130.7 131.1c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1l37.4-37.6c2.6-2.6 4.1-6.1 4.1-9.8-.1-3.6-1.6-7.1-4.2-9.7z"/></svg>
@@ -387,15 +388,15 @@
 				    </div>
 				    <div class="form-group col-12 mb-2">
 				        <input type="text" class="form-control" id="email" placeholder="Email" />
-				        <p class="text-danger font-italic">Note: Put your correct email id to get order updates.</p>
+				        <p class="text-purple font-italic">Note: Put your correct email id to get order updates.</p>
 				    </div>
 				    <div class="form-group col-12 mb-2">
 				        <input type="text" class="form-control" id="mobile" placeholder="Phone Number" />
 				    </div>
 				    <div class="form-group col-12 mb-2">
 				        <textarea class="form-control" rows="3" id="address" placeholder="Complete address"></textarea>
-				    	<p class="text-danger font-italic">Note: Order with incomplete address will be rejected.</p>
-				    	<p class="text-danger font-italic">Min length of 25 character.</p>
+				    	<p class="text-purple font-italic">Note: Order with incomplete address will be rejected.</p>
+				    	<p class="text-purple font-italic">Min length of 25 character.</p>
 				    </div>
 				    <div class="form-group col-12 mb-2">
 				    	<div class="row">
@@ -411,14 +412,14 @@
 				    <div class="form-group col-12 mb-2">
 				        <select class="form-control" id="available-date" onchange="onAvailableDateChange()">
 				        	<option value="">Select Preferred Appointment Date</option>
-				        	<option value="2020-07-16 20:36:10.8366117 &#43;0200 SAST">July 16, 2020, Thursday</option>
-				        	<option value="2020-07-17 20:36:10.8366117 &#43;0200 SAST">July 17, 2020, Friday</option>
-				        	<option value="2020-07-18 20:36:10.8366117 &#43;0200 SAST">July 18, 2020, Saturday</option>
-				        	<option value="2020-07-19 20:36:10.8366117 &#43;0200 SAST">July 19, 2020, Sunday</option>
-				        	<option value="2020-07-20 20:36:10.8366117 &#43;0200 SAST">July 20, 2020, Monday</option>
-				        	<option value="2020-07-21 20:36:10.8366117 &#43;0200 SAST">July 21, 2020, Tuesday</option>
-				        	<option value="2020-07-22 20:36:10.8366117 &#43;0200 SAST">July 22, 2020, Wednesday</option>
-				        	<option value="2020-07-23 20:36:10.8366117 &#43;0200 SAST">July 23, 2020, Thursday</option>
+				        	<option value="2020-07-16 23:30:55.0532904 &#43;0200 SAST">July 16, 2020, Thursday</option>
+				        	<option value="2020-07-17 23:30:55.0532904 &#43;0200 SAST">July 17, 2020, Friday</option>
+				        	<option value="2020-07-18 23:30:55.0532904 &#43;0200 SAST">July 18, 2020, Saturday</option>
+				        	<option value="2020-07-19 23:30:55.0532904 &#43;0200 SAST">July 19, 2020, Sunday</option>
+				        	<option value="2020-07-20 23:30:55.0532904 &#43;0200 SAST">July 20, 2020, Monday</option>
+				        	<option value="2020-07-21 23:30:55.0532904 &#43;0200 SAST">July 21, 2020, Tuesday</option>
+				        	<option value="2020-07-22 23:30:55.0532904 &#43;0200 SAST">July 22, 2020, Wednesday</option>
+				        	<option value="2020-07-23 23:30:55.0532904 &#43;0200 SAST">July 23, 2020, Thursday</option>
 				        </select>
 				        <span class="font-italic text-danger" id="available-date-error"></span>	
 				    </div>
@@ -430,7 +431,7 @@
 				    <hr/>
 				    <div class="form-group form-check">
 					    <input type="checkbox" class="form-check-input" id="receive-hardcopy" onchange="calculateTotalPrice()">
-					    <label class="form-check-label text-black" for="receive-hardcopy">Please tick to receive hard copy report, <span class="text-danger font-weight-bold">courier charges Rs.75 extra</span></label>
+					    <label class="form-check-label text-black" for="receive-hardcopy">Please tick to receive hard copy report, <span class="text-purple font-weight-bold">courier charges Rs.75 extra</span></label>
 					</div>
 				    <div class="form-group col-12 mb-2">
 				    	<span class="text-black font-weight-bold">Total Price: Rs.<span id="price">500</span></span>
@@ -687,171 +688,171 @@
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-allergy">allergy</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-allergy">allergy</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-anaemia-liver">anaemia liver</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-anaemia-liver">anaemia liver</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-anaemia-pregnancy">anaemia pregnancy</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-anaemia-pregnancy">anaemia pregnancy</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-arthritis">arthritis</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/test-arthritis">arthritis</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-arthritis-autoimmune">arthritis autoimmune</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-arthritis-autoimmune">arthritis autoimmune</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-arthritis-cardiac">arthritis cardiac</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-arthritis-cardiac">arthritis cardiac</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune">autoimmune</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune">autoimmune</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune-arthritis">autoimmune arthritis</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune-arthritis">autoimmune arthritis</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune-pregnancy">autoimmune pregnancy</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune-pregnancy">autoimmune pregnancy</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune-thyroid">autoimmune thyroid</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-autoimmune-thyroid">autoimmune thyroid</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-cancer">cancer</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/test-cancer">cancer</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/test-cardiac">cardiac</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-cardiac">cardiac</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/test-chikungunya">chikungunya</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/test-chikungunya">chikungunya</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-coagulation">coagulation</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-coagulation">coagulation</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-diabetes">diabetes</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-diabetes">diabetes</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-diabetes-renal">diabetes renal</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-diabetes-renal">diabetes renal</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-elements">elements</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-elements">elements</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-hair-elements">hair elements</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-hair-elements">hair elements</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-hepatitis">hepatitis</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/test-hepatitis">hepatitis</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-infection">infection</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-infection">infection</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-infection-pregnancy">infection pregnancy</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-infection-pregnancy">infection pregnancy</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-infertility">infertility</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-infertility">infertility</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-infertility-pregnancy">infertility pregnancy</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-infertility-pregnancy">infertility pregnancy</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-liver-pregnancy-cancer">liver pregnancy cancer</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-liver-pregnancy-cancer">liver pregnancy cancer</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-malaria">malaria</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/test-malaria">malaria</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-metabolic">metabolic</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-metabolic">metabolic</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-metabolic-arthritis">metabolic arthritis</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-metabolic-arthritis">metabolic arthritis</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/test-metabolic-wellness-bone-disease">metabolic wellness bone disease</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/test-metabolic-wellness-bone-disease">metabolic wellness bone disease</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-pancreatitis">pancreatitis</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/test-pancreatitis">pancreatitis</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-pancreatitis-liver">pancreatitis liver</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-pancreatitis-liver">pancreatitis liver</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-pregnancy">pregnancy</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-pregnancy">pregnancy</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-pregnancy-cancer">pregnancy cancer</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/test-pregnancy-cancer">pregnancy cancer</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/test-pregnancy-infection">pregnancy infection</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-pregnancy-infection">pregnancy infection</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-renal">renal</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-renal">renal</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-thalassemia">thalassemia</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-thalassemia">thalassemia</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-therapeutic-drug-monitoring">therapeutic drug monitoring</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/test-therapeutic-drug-monitoring">therapeutic drug monitoring</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-cancer">thyroid cancer</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-cancer">thyroid cancer</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-infertility">thyroid infertility</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-infertility">thyroid infertility</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-pregnancy">thyroid pregnancy</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-pregnancy">thyroid pregnancy</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-pregnancy-infertility">thyroid pregnancy infertility</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/categories/test-thyroid-pregnancy-infertility">thyroid pregnancy infertility</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/test-toxic">toxic</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/test-toxic">toxic</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/test-wellness">wellness</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/test-wellness">wellness</a>
 	
 
 </section>
@@ -947,7 +948,7 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/h.-pylori-antibody-test">h. pylori antibody test</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/h.-pylori-antibody-test">h. pylori antibody test</a>
 		
 	
 		
@@ -989,7 +990,7 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/kidney-function-test">kidney function test</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/kidney-function-test">kidney function test</a>
 		
 	
 		
@@ -1019,7 +1020,7 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/pregnancy-test-qualitative-hcg-quantitative-hcg-beta-hcg">pregnancy qualitative hcg quantitative hcg beta hcg</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/pregnancy-test-qualitative-hcg-quantitative-hcg-beta-hcg">pregnancy qualitative hcg quantitative hcg beta hcg</a>
 		
 	
 		
@@ -1123,55 +1124,55 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test">test</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test">test</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-25-dihydroxy-vitamin-d">25 dihydroxy vitamin d</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-25-dihydroxy-vitamin-d">25 dihydroxy vitamin d</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-25-hydroxy-vitamin-d">25 hydroxy vitamin d</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-25-hydroxy-vitamin-d">25 hydroxy vitamin d</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-alpha1a">alpha1a</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-alpha1a">alpha1a</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-anemia">anemia</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-anemia">anemia</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-anti-cardiolipin-antibodies">anti cardiolipin antibodies</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-anti-cardiolipin-antibodies">anti cardiolipin antibodies</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-anti-thyroid-antibodies">anti thyroid antibodies</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-anti-thyroid-antibodies">anti thyroid antibodies</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-b27">b27</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-b27">b27</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-beta-2gp1-ab">beta 2gp1 ab</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-beta-2gp1-ab">beta 2gp1 ab</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-blood-glucose">blood glucose</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-blood-glucose">blood glucose</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-cancer-marker">cancer marker</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-cancer-marker">cancer marker</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-cmv">cmv</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-cmv">cmv</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-cobalamin">cobalamin</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-cobalamin">cobalamin</a>
 		
 	
 		
@@ -1179,15 +1180,15 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-cytomegalo-virus">cytomegalo virus</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-cytomegalo-virus">cytomegalo virus</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-dhea-s">dhea s</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-dhea-s">dhea s</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-dhea-sulfate">dhea sulfate</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-dhea-sulfate">dhea sulfate</a>
 		
 	
 		
@@ -1195,15 +1196,15 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-dilantin">dilantin</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-dilantin">dilantin</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-egg-timer-test">egg timer test</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-egg-timer-test">egg timer test</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-eptoin">eptoin</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-eptoin">eptoin</a>
 		
 	
 		
@@ -1211,27 +1212,27 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-free-hormones">free hormones</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-free-hormones">free hormones</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-free-thyroxine">free thyroxine</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-free-thyroxine">free thyroxine</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-full-body-examination-fbe">full body examination fbe</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-full-body-examination-fbe">full body examination fbe</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-full-body-picture-fbp">full body picture fbp</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-full-body-picture-fbp">full body picture fbp</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-german-measles">german measles</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-german-measles">german measles</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-glucose">glucose</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-glucose">glucose</a>
 		
 	
 		
@@ -1239,15 +1240,15 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-glycated-haemoglobin">glycated haemoglobin</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-glycated-haemoglobin">glycated haemoglobin</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-h.-pylori-antigen-test">h. pylori antigen test</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-h.-pylori-antigen-test">h. pylori antigen test</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-h.-pylori-breath-test">h. pylori breath test</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-h.-pylori-breath-test">h. pylori breath test</a>
 		
 	
 		
@@ -1255,11 +1256,11 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-hba2">hba2</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-hba2">hba2</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-hbeag">hbeag</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-hbeag">hbeag</a>
 		
 	
 		
@@ -1267,7 +1268,7 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-hemoglobin-a1c">hemoglobin a1c</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-hemoglobin-a1c">hemoglobin a1c</a>
 		
 	
 		
@@ -1275,35 +1276,35 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-hepatitis-a-virus">hepatitis a virus</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-hepatitis-a-virus">hepatitis a virus</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-herpes">herpes</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-herpes">herpes</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-hsv">hsv</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-hsv">hsv</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-infertility">infertility</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-infertility">infertility</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-ketones">ketones</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-ketones">ketones</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-ldh-isoenzymes">ldh isoenzymes</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-ldh-isoenzymes">ldh isoenzymes</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-mullerian-inhibiting-factor-mif">mullerian inhibiting factor mif</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-mullerian-inhibiting-factor-mif">mullerian inhibiting factor mif</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-mullerian-inhibiting-substance-mis">mullerian inhibiting substance mis</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-mullerian-inhibiting-substance-mis">mullerian inhibiting substance mis</a>
 		
 	
 		
@@ -1311,19 +1312,19 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-pancreatic-enzymes">pancreatic enzymes</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-pancreatic-enzymes">pancreatic enzymes</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-ppbs">ppbs</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-ppbs">ppbs</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-pps">pps</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-pps">pps</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-salivary">salivary</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-salivary">salivary</a>
 		
 	
 		
@@ -1331,11 +1332,11 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-streptococcal-serology">streptococcal serology</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-streptococcal-serology">streptococcal serology</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/test-tg">tg</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-tg">tg</a>
 		
 	
 		
@@ -1343,15 +1344,15 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/test-thalassemia">thalassemia</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-thalassemia">thalassemia</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-thyroid-antibodies">thyroid antibodies</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-thyroid-antibodies">thyroid antibodies</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-thyroid-peroxidase-antibody">thyroid peroxidase antibody</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/test-thyroid-peroxidase-antibody">thyroid peroxidase antibody</a>
 		
 	
 		
@@ -1359,7 +1360,7 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-total-ldh">total ldh</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/test-total-ldh">total ldh</a>
 		
 	
 		
@@ -1367,15 +1368,15 @@
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-tumor-marker">tumor marker</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/test-tumor-marker">tumor marker</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-wilson">wilson</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/test-wilson">wilson</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/test-%C3%9F2-glycoprotein-1-antibodies">ß2 glycoprotein 1 antibodies</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/test-%C3%9F2-glycoprotein-1-antibodies">ß2 glycoprotein 1 antibodies</a>
 		
 	
 		
@@ -1422,6 +1423,7 @@
 <script src="https://niteshn99.github.io/aarogya/js/vendor/popper.min.js" type="text/javascript"></script>
 <script src="https://niteshn99.github.io/aarogya/js/vendor/bootstrap.min.js" type="text/javascript"></script>
 <script src="https://niteshn99.github.io/aarogya/js/functions.js" type="text/javascript"></script>
+<script src="https://niteshn99.github.io/aarogya/js/jquery.serialize-object.js" type="text/javascript"></script>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
