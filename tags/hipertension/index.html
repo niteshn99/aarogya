@@ -91,8 +91,12 @@
   <link type="text/css" rel="stylesheet" href="https://niteshn99.github.io/aarogya/css/vendor/aos.css" />
   <link type="text/css" rel="stylesheet" href="https://niteshn99.github.io/aarogya/css/search.css"/>
 
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
+
 </head>
-<body><nav class="topnav navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+<body><nav class="topnav navbar navbar-expand-lg navbar-dark bg-success fixed-top p-0">
 <div class="container-fluid">
 	<a class="navbar-brand" href="#"><img class="mr-2" src="./img/header/logo_without_name.png" width="50"/><strong>Aarogya</strong></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-1" aria-controls="navbarNavDropdown-1" aria-expanded="false" aria-label="Toggle navigation" style="">
@@ -105,6 +109,8 @@
 	      
 	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/profiles/">Profiles</a></li>
 	      
+	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/tests/">Tests</a></li>
+	      
 	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/blogs/">Blogs</a></li>
 	      
 	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/about/">About</a></li>
@@ -114,14 +120,13 @@
 	    </ul>
 		<ul class="navbar-nav ml-auto d-flex align-items-center">
 			
-			<div class="show-search">
-    <a class="toggle-search" title="search in easee documentation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="612.056" height="612.057" viewbox="0 0 613 613">
-            <path
-                d="M595.2 513.908L493.775 412.482c26.707-41.727 42.685-91.041 42.685-144.263C536.459 120.085 416.375 0 268.24 0 120.106 0 .021 120.085.021 268.219c0 148.134 120.085 268.22 268.219 268.22 53.222 0 102.537-15.979 144.225-42.686l101.426 101.463c22.454 22.453 58.854 22.453 81.271 0 22.492-22.491 22.492-58.855.038-81.308zm-326.96-54.103c-105.793 0-191.585-85.793-191.585-191.585 0-105.793 85.792-191.585 191.585-191.585s191.585 85.792 191.585 191.585c.001 105.792-85.791 191.585-191.585 191.585z" />
-        </svg>
-    </a>
-</div>
+			<li class="nav-item">
+				<a class="nav-link btn" href="https://niteshn99.github.io/aarogya/shoppingcart/">
+					<i class="fas fa-shopping-cart"><span class="badge badge-warning ml-2 sc-item-count">0</span></i>
+				</a>
+			</li>
+			
+<li class="nav-item"><a class="nav-link toggle-search"><i class="fas fa-search"></i></a></li>
 <aside role="search">
     <div class="close toggle-search">
     <svg height="512" width="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M443.6 387.1L312.4 255.4l131.5-130c5.4-5.4 5.4-14.2 0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L256 197.8 124.9 68.3c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L68 105.9c-5.4 5.4-5.4 14.2 0 19.6l131.5 130L68.4 387.1c-2.6 2.6-4.1 6.1-4.1 9.8 0 3.7 1.4 7.2 4.1 9.8l37.4 37.6c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1L256 313.1l130.7 131.1c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1l37.4-37.6c2.6-2.6 4.1-6.1 4.1-9.8-.1-3.6-1.6-7.1-4.2-9.7z"/></svg>
@@ -145,260 +150,25 @@
 		</ul>
 	</div>
 </div>
-</nav><main class="container">
+</nav>
+
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", initCartCount);
+
+	function initCartCount() {
+		let items = $.shoppingcart('getAll');
+		$('.sc-item-count').text(items.length);
+	}
+</script><main class="container">
 			<section class="pt-5 pb-1" data-aos="fade-up">
 
 			</section>
 			<section class="pt-5 pb-1" data-aos="fade-up">
-				<h3 class="h5 mb-4 font-weight-bold pt-5">HIPERTENSION</h3>
+				<h3 class="h5 mb-4 font-weight-bold pt-5">Tag: HIPERTENSION</h3>
 		        <div class="row gap-y">
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/aarogyam-xl/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P688_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">AAROGYAM XL</h5>
-		<span class="card-text text-muted">
-			
-              <p>AAROGYAM XL consist of 185 test and consist of fundamental test for screaning of …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/aarogyam-xl/" class="btn btn-light w-100 mb-3">Price Rs.8000</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/aarogyam-xl/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/aarogyam-xl/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-a/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P483_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">HYPERTENSION PROFILE - A</h5>
-		<span class="card-text text-muted">
-			
-              <p>HYPERTENSION PROFILE - A consist of 78 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-a/" class="btn btn-light w-100 mb-3">Price Rs.4320</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-a/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-a/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-b/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P484_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">HYPERTENSION PROFILE - B</h5>
-		<span class="card-text text-muted">
-			
-              <p>HYPERTENSION PROFILE - B consist of 93 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-b/" class="btn btn-light w-100 mb-3">Price Rs.6000</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-b/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-b/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-c/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P485_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">HYPERTENSION PROFILE - C</h5>
-		<span class="card-text text-muted">
-			
-              <p>HYPERTENSION PROFILE - C consist of 100 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-c/" class="btn btn-light w-100 mb-3">Price Rs.8100</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-c/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-c/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-m/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P482_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">HYPERTENSION PROFILE - M</h5>
-		<span class="card-text text-muted">
-			
-              <p>HYPERTENSION PROFILE - M consist of 62 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-m/" class="btn btn-light w-100 mb-3">Price Rs.3267</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-m/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/hypertension-profile-m/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P443_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">INFERTILITY PROFILE - B</h5>
-		<span class="card-text text-muted">
-			
-              <p>INFERTILITY PROFILE - B consist of 27 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/" class="btn btn-light w-100 mb-3">Price Rs.5040</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-c/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P444_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">INFERTILITY PROFILE - C</h5>
-		<span class="card-text text-muted">
-			
-              <p>INFERTILITY PROFILE - C consist of 32 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-c/" class="btn btn-light w-100 mb-3">Price Rs.6240</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-c/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-c/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/obesity-profile-c/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P546_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">OBESITY PROFILE - C</h5>
-		<span class="card-text text-muted">
-			
-              <p>OBESITY PROFILE - C consist of 109 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/obesity-profile-c/" class="btn btn-light w-100 mb-3">Price Rs.9300</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/obesity-profile-c/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/obesity-profile-c/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
-	
-    
-    <a href="https://niteshn99.github.io/aarogya/profiles/paleo-profile-c/">
-    
-	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P474_banner.jpg">
-	</a>
-	
-	<div class="card-body">
-		<a href="#">
-		<h5 class="card-title text-dark">PALEO PROFILE - C</h5>
-		<span class="card-text text-muted">
-			
-              <p>PALEO PROFILE - C consist of 132 test and consist of fundamental test for …</p>
-             
-        </span>
-		</a>
-		<a href="https://niteshn99.github.io/aarogya/profiles/paleo-profile-c/" class="btn btn-light w-100 mb-3">Price Rs.7800</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/paleo-profile-c/" class="btn btn-info float-left">View Detail</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/paleo-profile-c/" class="btn btn-success float-right">Book Now</a>
-	</div>
-</div>
-				</div>
-
-				  
-				  
-				  <div class="col-md-3 col-lg-4">
-					<div class="card shadow-sm">
+					
+				  		<div class="col-md-3 col-lg-4">
+							<div class="card shadow-sm">
 	
     
     <a href="https://niteshn99.github.io/aarogya/profiles/steroid-profile/">
@@ -407,7 +177,7 @@
 	</a>
 	
 	<div class="card-body">
-		<a href="#">
+		<a href="https://niteshn99.github.io/aarogya/profiles/steroid-profile/">
 		<h5 class="card-title text-dark">STEROID PROFILE</h5>
 		<span class="card-text text-muted">
 			
@@ -416,12 +186,40 @@
         </span>
 		</a>
 		<a href="https://niteshn99.github.io/aarogya/profiles/steroid-profile/" class="btn btn-light w-100 mb-3">Price Rs.3000</a>
-        <a href="https://niteshn99.github.io/aarogya/profiles/steroid-profile/" class="btn btn-info float-left">View Detail</a>
+        <button class="btn btn-info float-left" onclick="addToCart({'id':  11155 , 'code': 'P210', 'image': 'http:\/\/www.thyrocare.com\/wellness\/img\/Banner\/P210_banner.jpg', 'name': 'STEROID PROFILE', 'url': 'https:\/\/niteshn99.github.io\/aarogya\/profiles\/steroid-profile\/', 'attributes': [&#34;profile&#34;], 'price': &#34;3000&#34;, 'count': 1})">Add To Cart</button>
         <a href="https://niteshn99.github.io/aarogya/profiles/steroid-profile/" class="btn btn-success float-right">Book Now</a>
 	</div>
 </div>
-				</div>
 
+
+						</div>
+				  
+				  		<div class="col-md-3 col-lg-4">
+							<div class="card shadow-sm">
+	
+    
+    <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/">
+    
+	<img class="img-card-top" src="http://www.thyrocare.com/wellness/img/Banner/P443_banner.jpg">
+	</a>
+	
+	<div class="card-body">
+		<a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/">
+		<h5 class="card-title text-dark">INFERTILITY PROFILE - B</h5>
+		<span class="card-text text-muted">
+			
+              <p>INFERTILITY PROFILE - B consist of 27 test and consist of fundamental test for …</p>
+             
+        </span>
+		</a>
+		<a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/" class="btn btn-light w-100 mb-3">Price Rs.5040</a>
+        <button class="btn btn-info float-left" onclick="addToCart({'id':  11188 , 'code': 'P443', 'image': 'http:\/\/www.thyrocare.com\/wellness\/img\/Banner\/P443_banner.jpg', 'name': 'INFERTILITY PROFILE - B', 'url': 'https:\/\/niteshn99.github.io\/aarogya\/profiles\/infertility-profile-b\/', 'attributes': [&#34;profile&#34;], 'price': &#34;5040&#34;, 'count': 1})">Add To Cart</button>
+        <a href="https://niteshn99.github.io/aarogya/profiles/infertility-profile-b/" class="btn btn-success float-right">Book Now</a>
+	</div>
+</div>
+
+
+						</div>
 				  
 				</div>
 			</section>
@@ -445,6 +243,12 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated%2Calways&features=Promise"></script>
+
+<script src="https://niteshn99.github.io/aarogya/js/environment.js" type="text/javascript"></script>
+
+<script src="https://niteshn99.github.io/aarogya/js/shoping-cart.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     
 
 <script src="https://niteshn99.github.io/aarogya/js/vendor/aos.js" type="text/javascript"></script>
@@ -500,6 +304,67 @@ AOS.init({
       $('[data-toggle="tooltip"]').tooltip()
     })
 </script>
-</body>
+
+
+<script type="text/javascript">
+  function addToCart(item) {
+    let profilesArray = [];
+    let shoppingcartItems = $.shoppingcart('getAll');
+    shoppingcartItems.forEach((item) => {
+      if (item.attributes[0] == "profile") {
+        profilesArray.push(item.name);
+      }
+    });
+    let profiles = profilesArray.join(",");
+    if (profiles.length > 0) {
+      tests = item.name + "," + profiles;
+
+      var settings = {
+        "url": THYROCARE_ORDER_ROOT_URL + "/" + API_KEY + "/" + tests + "/GetDuplicateTest",
+        "method": "GET",
+        "timeout": 0,
+      };
+
+      $.ajax(settings).done(function (response) {
+        if (response.RESPONSE == "SUCCESS") {
+          if (response.REMARKS == "DUPLICATE TEST NOT FOUND") {
+            addToCartChild(item);
+          } else {
+            $.alert({
+                title: 'Duplicate Test Found',
+                content: item.name + ' test already included in ' + profiles + '.',
+                backgroundDismiss: true,
+                theme: 'supervan',
+            });
+          }
+        } else {
+          $.alert({
+                title: 'Duplicate test validation',
+                content: "Failed to validate duplicate test. Please try after sometime.",
+                backgroundDismiss: true,
+                theme: 'supervan',
+            });
+        }
+      });  
+    } else {
+      addToCartChild(item);
+    }
+    
+  }
+
+  function addToCartChild(item) {
+    $.shoppingcart('add', item);
+     
+    initCartCount();
+
+    $.alert({
+        title: 'Add to cart',
+        content: item.name + ' successfully added to your cart.',
+        autoClose: 'ok|2000',
+        backgroundDismiss: true,
+        theme: 'supervan',
+    });
+  }
+</script></body>
 </html>
 

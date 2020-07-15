@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test-TOXIC on Aarogya</title>
+    <link>https://niteshn99.github.io/aarogya/categories/test-toxic/</link>
+    <description>Recent content in test-TOXIC on Aarogya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://niteshn99.github.io/aarogya/categories/test-toxic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BLOOD ELEMENT ANALYSIS PROFILE</title>
+      <link>https://niteshn99.github.io/aarogya/tests/blood-element-analysis-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/blood-element-analysis-profile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ELEMENTS 22 (TOXIC AND NUTRIENTS)</title>
+      <link>https://niteshn99.github.io/aarogya/tests/elements-22-toxic-and-nutrients/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/elements-22-toxic-and-nutrients/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

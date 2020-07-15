@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cancer Marker on Aarogya</title>
+    <link>https://niteshn99.github.io/aarogya/tags/cancer-marker/</link>
+    <description>Recent content in Cancer Marker on Aarogya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://niteshn99.github.io/aarogya/tags/cancer-marker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CARCINO EMBRYONIC ANTIGEN (CEA)</title>
+      <link>https://niteshn99.github.io/aarogya/tests/carcino-embryonic-antigen-cea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/carcino-embryonic-antigen-cea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ALPHA FETO PROTEIN (AFP)</title>
+      <link>https://niteshn99.github.io/aarogya/tests/alpha-feto-protein-afp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/alpha-feto-protein-afp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CA 19.9</title>
+      <link>https://niteshn99.github.io/aarogya/tests/ca-19.9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/ca-19.9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CA 15.3</title>
+      <link>https://niteshn99.github.io/aarogya/tests/ca-15.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/ca-15.3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

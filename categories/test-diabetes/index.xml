@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test-DIABETES on Aarogya</title>
+    <link>https://niteshn99.github.io/aarogya/categories/test-diabetes/</link>
+    <description>Recent content in test-DIABETES on Aarogya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://niteshn99.github.io/aarogya/categories/test-diabetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HbA1c</title>
+      <link>https://niteshn99.github.io/aarogya/tests/hba1c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/hba1c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FASTING BLOOD SUGAR</title>
+      <link>https://niteshn99.github.io/aarogya/tests/fasting-blood-sugar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/fasting-blood-sugar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POSTPRANDIAL BLOOD SUGAR</title>
+      <link>https://niteshn99.github.io/aarogya/tests/postprandial-blood-sugar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/postprandial-blood-sugar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INSULIN - FASTING</title>
+      <link>https://niteshn99.github.io/aarogya/tests/insulin-fasting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/insulin-fasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INSULIN - PP</title>
+      <link>https://niteshn99.github.io/aarogya/tests/insulin-pp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/insulin-pp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C-PEPTIDE</title>
+      <link>https://niteshn99.github.io/aarogya/tests/c-peptide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/c-peptide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RANDOM BLOOD SUGAR</title>
+      <link>https://niteshn99.github.io/aarogya/tests/random-blood-sugar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/random-blood-sugar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

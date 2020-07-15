@@ -88,8 +88,12 @@
   <link type="text/css" rel="stylesheet" href="https://niteshn99.github.io/aarogya/css/vendor/aos.css" />
   <link type="text/css" rel="stylesheet" href="https://niteshn99.github.io/aarogya/css/search.css"/>
 
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
+
 </head>
-<body><nav class="topnav navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+<body><nav class="topnav navbar navbar-expand-lg navbar-dark bg-success fixed-top p-0">
 <div class="container-fluid">
 	<a class="navbar-brand" href="#"><img class="mr-2" src="./img/header/logo_without_name.png" width="50"/><strong>Aarogya</strong></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-1" aria-controls="navbarNavDropdown-1" aria-expanded="false" aria-label="Toggle navigation" style="">
@@ -102,6 +106,8 @@
 	      
 	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/profiles/">Profiles</a></li>
 	      
+	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/tests/">Tests</a></li>
+	      
 	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/blogs/">Blogs</a></li>
 	      
 	        <li class="nav-item"><a class="nav-link" href="https://niteshn99.github.io/aarogya/about/">About</a></li>
@@ -111,14 +117,13 @@
 	    </ul>
 		<ul class="navbar-nav ml-auto d-flex align-items-center">
 			
-			<div class="show-search">
-    <a class="toggle-search" title="search in easee documentation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="612.056" height="612.057" viewbox="0 0 613 613">
-            <path
-                d="M595.2 513.908L493.775 412.482c26.707-41.727 42.685-91.041 42.685-144.263C536.459 120.085 416.375 0 268.24 0 120.106 0 .021 120.085.021 268.219c0 148.134 120.085 268.22 268.219 268.22 53.222 0 102.537-15.979 144.225-42.686l101.426 101.463c22.454 22.453 58.854 22.453 81.271 0 22.492-22.491 22.492-58.855.038-81.308zm-326.96-54.103c-105.793 0-191.585-85.793-191.585-191.585 0-105.793 85.792-191.585 191.585-191.585s191.585 85.792 191.585 191.585c.001 105.792-85.791 191.585-191.585 191.585z" />
-        </svg>
-    </a>
-</div>
+			<li class="nav-item">
+				<a class="nav-link btn" href="https://niteshn99.github.io/aarogya/shoppingcart/">
+					<i class="fas fa-shopping-cart"><span class="badge badge-warning ml-2 sc-item-count">0</span></i>
+				</a>
+			</li>
+			
+<li class="nav-item"><a class="nav-link toggle-search"><i class="fas fa-search"></i></a></li>
 <aside role="search">
     <div class="close toggle-search">
     <svg height="512" width="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M443.6 387.1L312.4 255.4l131.5-130c5.4-5.4 5.4-14.2 0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L256 197.8 124.9 68.3c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L68 105.9c-5.4 5.4-5.4 14.2 0 19.6l131.5 130L68.4 387.1c-2.6 2.6-4.1 6.1-4.1 9.8 0 3.7 1.4 7.2 4.1 9.8l37.4 37.6c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1L256 313.1l130.7 131.1c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1l37.4-37.6c2.6-2.6 4.1-6.1 4.1-9.8-.1-3.6-1.6-7.1-4.2-9.7z"/></svg>
@@ -143,6 +148,15 @@
 	</div>
 </div>
 </nav>
+
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", initCartCount);
+
+	function initCartCount() {
+		let items = $.shoppingcart('getAll');
+		$('.sc-item-count').text(items.length);
+	}
+</script>
 <main class="container">
 	<section class="pt-5 pb-5" data-aos="fade-up"></section>
 	<section class="pt-5 pb-5" data-aos="fade-up">
@@ -432,14 +446,14 @@
 				    <div class="form-group col-12 mb-2">
 				        <select class="form-control" id="available-date" onchange="onAvailableDateChange()">
 				        	<option value="">Select Preferred Appointment Date</option>
-				        	<option value="2020-07-13 11:25:36.2948196 &#43;0200 SAST">July 13, 2020, Monday</option>
-				        	<option value="2020-07-14 11:25:36.2948196 &#43;0200 SAST">July 14, 2020, Tuesday</option>
-				        	<option value="2020-07-15 11:25:36.2948196 &#43;0200 SAST">July 15, 2020, Wednesday</option>
-				        	<option value="2020-07-16 11:25:36.2948196 &#43;0200 SAST">July 16, 2020, Thursday</option>
-				        	<option value="2020-07-17 11:25:36.2948196 &#43;0200 SAST">July 17, 2020, Friday</option>
-				        	<option value="2020-07-18 11:25:36.2948196 &#43;0200 SAST">July 18, 2020, Saturday</option>
-				        	<option value="2020-07-19 11:25:36.2948196 &#43;0200 SAST">July 19, 2020, Sunday</option>
-				        	<option value="2020-07-20 11:25:36.2948196 &#43;0200 SAST">July 20, 2020, Monday</option>
+				        	<option value="2020-07-16 13:17:43.5532749 &#43;0200 SAST">July 16, 2020, Thursday</option>
+				        	<option value="2020-07-17 13:17:43.5532749 &#43;0200 SAST">July 17, 2020, Friday</option>
+				        	<option value="2020-07-18 13:17:43.5532749 &#43;0200 SAST">July 18, 2020, Saturday</option>
+				        	<option value="2020-07-19 13:17:43.5532749 &#43;0200 SAST">July 19, 2020, Sunday</option>
+				        	<option value="2020-07-20 13:17:43.5532749 &#43;0200 SAST">July 20, 2020, Monday</option>
+				        	<option value="2020-07-21 13:17:43.5532749 &#43;0200 SAST">July 21, 2020, Tuesday</option>
+				        	<option value="2020-07-22 13:17:43.5532749 &#43;0200 SAST">July 22, 2020, Wednesday</option>
+				        	<option value="2020-07-23 13:17:43.5532749 &#43;0200 SAST">July 23, 2020, Thursday</option>
 				        </select>
 				        <span class="font-italic text-danger" id="available-date-error"></span>	
 				    </div>
@@ -452,7 +466,6 @@
 				    <div class="form-group form-check">
 					    <input type="checkbox" class="form-check-input" id="receive-hardcopy" onchange="calculateTotalPrice()">
 					    <label class="form-check-label text-black" for="receive-hardcopy">Please tick to receive hard copy report, <span class="text-danger font-weight-bold">courier charges Rs.75 extra</span></label>
-					    <label class="form-check-label text-black">Home collection charges <span class="text-danger font-weight-bold">Rs.300</span> is applicable.</label>
 					</div>
 				    <div class="form-group col-12 mb-2">
 				    	<span class="text-black font-weight-bold">Total Price: Rs.<span id="price">2640</span></span>
@@ -492,10 +505,15 @@
 	}
 
 	function checkPincodeAvailability() {
+		let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, fetching information from server',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
 		let pincode = $("#pincode").val();
-		let url = "https://www.thyrocare.com/APIs/order.svc/CUEMjFxhgtnAbApUpAqJ9QSV7l)qXEH8f0unh8fpQNYcKLWvXyFzEw==/" + pincode + "/PincodeAvailability";
+		let url = THYROCARE_ORDER_ROOT_URL + "/" + API_KEY + "/" + pincode + "/PincodeAvailability"; 
 		$.get(url, function(response) {
-			console.log(response);
 			if(response.status === "Y") {
 				$("#pincodeavailabilitylabel").text("Yes, we provide service at pincode " + pincode);
 				$("#pincodeavailabilitylabel").addClass("text-success");
@@ -505,6 +523,7 @@
 				$("#pincodeavailabilitylabel").addClass("text-danger");
 				$("#pincodeavailabilitylabel").removeClass("text-success");
 			}
+			progress.close();
 		});
 	}
 
@@ -518,7 +537,11 @@
 		let rate = $("#rate").val();
 		let noofperson = $("#noofperson").val();
 
-		totalRate = (parseInt(rate) * parseInt(noofperson)) + parseInt(hc) + parseInt(courierRate);
+		if (noofperson == 0) {
+			noofperson = 1;
+		}
+
+		totalRate = (parseInt(rate) * parseInt(noofperson)) + parseInt(courierRate);
 		
 		$("#price").text(totalRate);
 		$("#rate").val(rate);
@@ -540,9 +563,15 @@
 	}
 
 	function addSlot(pincode, date) {
+		let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, fetching information from server',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
 		$('#available-slot').find('option').remove().end();
 		addOption("available-slot", "", "Select Preferred Time Slot");
-		url = "https://www.thyrocare.com/apis/ORDER.svc/" + pincode + "/" + date + "/GetAppointmentSlots";
+		url = THYROCARE_ORDER_ROOT_URL + "/" + pincode + "/" + date + "/GetAppointmentSlots";
 		$.get(url, function(response) {
 			response.LSlotDataRes.forEach(function(slot) {
 				addOption("available-slot", slot.Slot.split(" - ")[0], slot.Slot);
@@ -550,6 +579,7 @@
 			if(response.LSlotDataRes.length == 0) {
 				$("#available-date-error").text("No available slot found on " + date);
 			}
+			progress.close();
 		});
 	}
 
@@ -558,6 +588,12 @@
     } 
 
     function bookNowTest() {
+    	let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, sending information to Thyrocare',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
     	beneficiaryDetail = "<NewDataSet>";
     	noofperson = $("#noofperson").val();
     	for(i=1; i<=noofperson; i++) {
@@ -569,7 +605,7 @@
     	let appt_date = formatApptDateStr($("#available-date").val(), $("#available-slot").val());
 
     	orderDetail = {
-    		"api_key": "CUEMjFxhgtnAbApUpAqJ9QSV7l)qXEH8f0unh8fpQNYcKLWvXyFzEw==",
+    		"api_key": API_KEY,
     		"orderid": randomStr(6),
     		"address": $("#address").val(),
     		"pincode": $("#pincode").val(),
@@ -591,7 +627,7 @@
     	};
 
     	var settings = {
-		  "url": "https://www.thyrocare.com/APIS/ORDER.svc/Postorderdata",
+		  "url": THYROCARE_ORDER_ROOT_URL + "/Postorderdata",
 		  "method": "POST",
 		  "timeout": 0,
 		  "headers": {
@@ -601,11 +637,22 @@
 		};
 
 		$.ajax(settings).done(function (response) {
-		  if(response.RESPONSE == "SUCCESS") {
-		  	alert("Booking successful. Technician will be in touch with you to confirm appointment.");
-		  } else {
-		  	alert("Failed to book order.");
-		  }
+			progress.close();
+			if(response.RESPONSE == "SUCCESS") {
+				$.alert({
+				    title: 'Booking successful!',
+				    content: 'Shortly technician will be in touch with you to confirm appointment!',
+				    theme: 'supervan',
+				    backgroundDismiss: true,
+				});
+			} else {
+				$.alert({
+				    title: 'Booking failed!',
+				    content: 'Failed to book. Please try again after sometime!',
+				    theme: 'supervan',
+				    backgroundDismiss: true,
+				});
+			}
 		});
     }
 
@@ -639,59 +686,145 @@
 				<section class="pt-1 pb-1" data-aos="fade-up">
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/anemia">anemia</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/profile-anemia">anemia</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/bone-health">bone-health</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/profile-bone-health">bone health</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/cancer">cancer</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/profile-cancer">cancer</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/child-wellness">child-wellness</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/profile-child-wellness">child wellness</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/categories/diabetes">diabetes</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/profile-diabetes">diabetes</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/food-intolerance">food-intolerance</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/categories/profile-food-intolerance">food intolerance</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/heart-health">heart-health</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/profile-heart-health">heart health</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/infectious-disease">infectious-disease</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/profile-infectious-disease">infectious disease</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/categories/infectious-diseases">infectious-diseases</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/profile-infectious-diseases">infectious diseases</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/renal-wellness-uti">renal-wellness-uti</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/profile-renal-wellness-uti">renal wellness uti</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/thyroid">thyroid</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/profile-thyroid">thyroid</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/categories/vitamin">vitamin</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/profile-vitamin">vitamin</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/categories/wellness">wellness</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/categories/profile-wellness">wellness</a>
 	
 
 	
-    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/woman-health">woman-health</a>
+    	<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/categories/profile-woman-health">woman health</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
 	
 
 </section>
@@ -699,191 +832,489 @@
 				<section class="pt-1 pb-1" data-aos="fade-up">
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/amino-acid">amino-acid</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/arthritis">arthritis</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/autoimmunity">autoimmunity</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/cardiac-risk-markers">cardiac-risk-markers</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/cereals">cereals</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/coagulation">coagulation</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/complete-hemogram">complete-hemogram</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/complete-urine-analysis">complete-urine-analysis</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/dairy">dairy</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/diabetes">diabetes</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/electrolytes">electrolytes</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/elements">elements</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/fever">fever</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/fish">fish</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/fruits">fruits</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/g6pd">g6pd</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/hb27">hb27</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/hepatitis-panel">hepatitis-panel</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/hipertension">hipertension</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/hormone">hormone</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/infection">infection</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/infectious-disease">infectious-disease</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/infectious-diseases">infectious-diseases</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/infertility">infertility</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/iron-deficiency">iron-deficiency</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/lipid">lipid</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/liver">liver</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/meat">meat</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/metabolic">metabolic</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/miscellaneous">miscellaneous</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/new-born-screening">new-born-screening</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/nuts">nuts</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/others">others</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/pancreatic">pancreatic</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/pregnancy">pregnancy</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/renal">renal</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/spices">spices</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/steroid">steroid</a>
+	
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/subset">subset</a>
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/profile-amino-acid">amino acid</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/thalassemia">thalassemia</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/profile-arthritis">arthritis</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/thyroid">thyroid</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/profile-autoimmunity">autoimmunity</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/toxic-elements">toxic-elements</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-cardiac-risk-markers">cardiac risk markers</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/tumour">tumour</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-cereals">cereals</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/urinogram">urinogram</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/profile-complete-hemogram">complete hemogram</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/vegetables">vegetables</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/profile-complete-urine-analysis">complete urine analysis</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/vitamin">vitamin</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-diabetes">diabetes</a>
 		
 	
 		
-			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/wellness">wellness</a>
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/profile-electrolytes">electrolytes</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/profile-elements">elements</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/profile-fever">fever</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/profile-fish">fish</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/profile-fruits">fruits</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/profile-g6pd">g6pd</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/profile-hb27">hb27</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/profile-hepatitis-panel">hepatitis panel</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/profile-hipertension">hipertension</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/profile-hormone">hormone</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-infection">infection</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/profile-infectious-disease">infectious disease</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/profile-infectious-diseases">infectious diseases</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/profile-infertility">infertility</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/profile-iron-deficiency">iron deficiency</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/profile-lipid">lipid</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/profile-liver">liver</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/profile-meat">meat</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/profile-metabolic">metabolic</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/profile-miscellaneous">miscellaneous</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-nuts">nuts</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/profile-others">others</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-danger" href="https://niteshn99.github.io/aarogya/tags/profile-pancreatic">pancreatic</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/profile-renal">renal</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-spices">spices</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-cyan" href="https://niteshn99.github.io/aarogya/tags/profile-steroid">steroid</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-primary" href="https://niteshn99.github.io/aarogya/tags/profile-subset">subset</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/profile-thalassemia">thalassemia</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-thyroid">thyroid</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-info" href="https://niteshn99.github.io/aarogya/tags/profile-toxic-elements">toxic elements</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-success" href="https://niteshn99.github.io/aarogya/tags/profile-urinogram">urinogram</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-purple" href="https://niteshn99.github.io/aarogya/tags/profile-vegetables">vegetables</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-secondary" href="https://niteshn99.github.io/aarogya/tags/profile-vitamin">vitamin</a>
+		
+	
+		
+			<a class="btn text-capitalize mt-2 mb-2 btn-warning" href="https://niteshn99.github.io/aarogya/tags/profile-wellness">wellness</a>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
 		
 	
 </section>
@@ -912,6 +1343,12 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated%2Calways&features=Promise"></script>
+
+<script src="https://niteshn99.github.io/aarogya/js/environment.js" type="text/javascript"></script>
+
+<script src="https://niteshn99.github.io/aarogya/js/shoping-cart.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     
 
 <script src="https://niteshn99.github.io/aarogya/js/vendor/aos.js" type="text/javascript"></script>
@@ -967,5 +1404,66 @@ AOS.init({
       $('[data-toggle="tooltip"]').tooltip()
     })
 </script>
-</body>
+
+
+<script type="text/javascript">
+  function addToCart(item) {
+    let profilesArray = [];
+    let shoppingcartItems = $.shoppingcart('getAll');
+    shoppingcartItems.forEach((item) => {
+      if (item.attributes[0] == "profile") {
+        profilesArray.push(item.name);
+      }
+    });
+    let profiles = profilesArray.join(",");
+    if (profiles.length > 0) {
+      tests = item.name + "," + profiles;
+
+      var settings = {
+        "url": THYROCARE_ORDER_ROOT_URL + "/" + API_KEY + "/" + tests + "/GetDuplicateTest",
+        "method": "GET",
+        "timeout": 0,
+      };
+
+      $.ajax(settings).done(function (response) {
+        if (response.RESPONSE == "SUCCESS") {
+          if (response.REMARKS == "DUPLICATE TEST NOT FOUND") {
+            addToCartChild(item);
+          } else {
+            $.alert({
+                title: 'Duplicate Test Found',
+                content: item.name + ' test already included in ' + profiles + '.',
+                backgroundDismiss: true,
+                theme: 'supervan',
+            });
+          }
+        } else {
+          $.alert({
+                title: 'Duplicate test validation',
+                content: "Failed to validate duplicate test. Please try after sometime.",
+                backgroundDismiss: true,
+                theme: 'supervan',
+            });
+        }
+      });  
+    } else {
+      addToCartChild(item);
+    }
+    
+  }
+
+  function addToCartChild(item) {
+    $.shoppingcart('add', item);
+     
+    initCartCount();
+
+    $.alert({
+        title: 'Add to cart',
+        content: item.name + ' successfully added to your cart.',
+        autoClose: 'ok|2000',
+        backgroundDismiss: true,
+        theme: 'supervan',
+    });
+  }
+</script></body>
 </html>

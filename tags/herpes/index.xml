@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HERPES on Aarogya</title>
+    <link>https://niteshn99.github.io/aarogya/tags/herpes/</link>
+    <description>Recent content in HERPES on Aarogya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://niteshn99.github.io/aarogya/tags/herpes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HERPES SIMPLEX VIRUS I (HSV)-IGG</title>
+      <link>https://niteshn99.github.io/aarogya/tests/herpes-simplex-virus-i-hsv-igg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/herpes-simplex-virus-i-hsv-igg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HERPES SIMPLEX VIRUS I (HSV)-IGM</title>
+      <link>https://niteshn99.github.io/aarogya/tests/herpes-simplex-virus-i-hsv-igm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/herpes-simplex-virus-i-hsv-igm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HERPES SIMPLEX VIRUS (HSV)-IgG</title>
+      <link>https://niteshn99.github.io/aarogya/tests/herpes-simplex-virus-hsv-igg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/herpes-simplex-virus-hsv-igg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
