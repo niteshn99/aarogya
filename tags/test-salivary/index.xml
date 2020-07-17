@@ -6,6 +6,7 @@
     <description>Recent content in test-Salivary on Aarogya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2020 09:51:22 +0000</lastBuildDate>
     
 	<atom:link href="https://niteshn99.github.io/aarogya/tags/test-salivary/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,9 +14,18 @@
     <item>
       <title>AMYLASE</title>
       <link>https://niteshn99.github.io/aarogya/tests/amylase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jul 2020 09:51:22 +0000</pubDate>
       
       <guid>https://niteshn99.github.io/aarogya/tests/amylase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LIPASE</title>
+      <link>https://niteshn99.github.io/aarogya/tests/lipase/</link>
+      <pubDate>Fri, 17 Jul 2020 09:51:22 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/lipase/</guid>
       <description></description>
     </item>
     

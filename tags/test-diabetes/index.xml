@@ -6,6 +6,7 @@
     <description>Recent content in test-Diabetes on Aarogya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2020 09:51:22 +0000</lastBuildDate>
     
 	<atom:link href="https://niteshn99.github.io/aarogya/tags/test-diabetes/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>HbA1c</title>
       <link>https://niteshn99.github.io/aarogya/tests/hba1c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jul 2020 09:51:22 +0000</pubDate>
       
       <guid>https://niteshn99.github.io/aarogya/tests/hba1c/</guid>
       <description></description>
@@ -22,9 +23,27 @@
     <item>
       <title>INSULIN - FASTING</title>
       <link>https://niteshn99.github.io/aarogya/tests/insulin-fasting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jul 2020 09:51:22 +0000</pubDate>
       
       <guid>https://niteshn99.github.io/aarogya/tests/insulin-fasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INSULIN - PP</title>
+      <link>https://niteshn99.github.io/aarogya/tests/insulin-pp/</link>
+      <pubDate>Fri, 17 Jul 2020 09:51:22 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/insulin-pp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C-PEPTIDE</title>
+      <link>https://niteshn99.github.io/aarogya/tests/c-peptide/</link>
+      <pubDate>Fri, 17 Jul 2020 09:51:22 +0000</pubDate>
+      
+      <guid>https://niteshn99.github.io/aarogya/tests/c-peptide/</guid>
       <description></description>
     </item>
     
